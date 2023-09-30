@@ -1,0 +1,86 @@
+[
+  {
+    "name": "employees",
+    "path": "/employees",
+    "component": "D:\\\\Project\\\\FE_HumanResourceSystem\\\\pages\\\\employees\\\\index.vue",
+    "chunkName": "pages/employees/index",
+    "_name": "_720cd112"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "D:\\\\Project\\\\FE_HumanResourceSystem\\\\pages\\\\login.vue",
+    "chunkName": "pages/login",
+    "_name": "_0f2e5658"
+  },
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "D:\\\\Project\\\\FE_HumanResourceSystem\\\\pages\\\\register.vue",
+    "chunkName": "pages/register",
+    "_name": "_6da82388"
+  },
+  {
+    "name": "roles",
+    "path": "/roles",
+    "component": "D:\\\\Project\\\\FE_HumanResourceSystem\\\\pages\\\\roles\\\\index.vue",
+    "chunkName": "pages/roles/index",
+    "_name": "_388f254c"
+  },
+  {
+    "name": "teams",
+    "path": "/teams",
+    "component": "D:\\\\Project\\\\FE_HumanResourceSystem\\\\pages\\\\teams\\\\index.vue",
+    "chunkName": "pages/teams/index",
+    "_name": "_384ae67e"
+  },
+  {
+    "name": "employees-add",
+    "path": "/employees/add",
+    "component": "D:\\\\Project\\\\FE_HumanResourceSystem\\\\pages\\\\employees\\\\add.vue",
+    "chunkName": "pages/employees/add",
+    "_name": "_88b7a93e"
+  },
+  {
+    "name": "employees-finish",
+    "path": "/employees/finish",
+    "component": "D:\\\\Project\\\\FE_HumanResourceSystem\\\\pages\\\\employees\\\\finish.vue",
+    "chunkName": "pages/employees/finish",
+    "_name": "_2b7037fa"
+  },
+  {
+    "name": "employees-role",
+    "path": "/employees/role",
+    "component": "D:\\\\Project\\\\FE_HumanResourceSystem\\\\pages\\\\employees\\\\role.vue",
+    "chunkName": "pages/employees/role",
+    "_name": "_15723734"
+  },
+  {
+    "name": "employees-team",
+    "path": "/employees/team",
+    "component": "D:\\\\Project\\\\FE_HumanResourceSystem\\\\pages\\\\employees\\\\team.vue",
+    "chunkName": "pages/employees/team",
+    "_name": "_bc934a66"
+  },
+  {
+    "name": "roles-add",
+    "path": "/roles/add",
+    "component": "D:\\\\Project\\\\FE_HumanResourceSystem\\\\pages\\\\roles\\\\add.vue",
+    "chunkName": "pages/roles/add",
+    "_name": "_129a39a9"
+  },
+  {
+    "name": "teams-add",
+    "path": "/teams/add",
+    "component": "D:\\\\Project\\\\FE_HumanResourceSystem\\\\pages\\\\teams\\\\add.vue",
+    "chunkName": "pages/teams/add",
+    "_name": "_5089f260"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\Project\\\\FE_HumanResourceSystem\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_2ec131bd"
+  }
+]

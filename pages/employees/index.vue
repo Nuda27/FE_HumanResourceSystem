@@ -37,7 +37,7 @@
                         </div>
                         <p class="text-grey">Your team powers</p>
                     </div>
-                    <a href="employee_create.html" class="btn btn-primary">Add Employee</a>
+                    <NuxtLink :to="{ name: 'employees-add'}" class="btn btn-primary">Add Employee</NuxtLink>
                 </div>
             </div>
 
