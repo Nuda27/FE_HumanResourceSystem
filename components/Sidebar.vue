@@ -16,23 +16,23 @@
             </div>
             <div class="flex flex-col gap-4">
                 <div class="text-sm text-grey">Daily Use</div>
-                <NuxtLink to="/" class="nav-link active">
-                    <img src="/assets/svgs/ic-grid.svg" alt="">
-                    Overview
-                </NuxtLink>
-                <NuxtLink to="/employees" class="nav-link">
-                    <img src="/assets/svgs/ic-users.svg" alt="">
-                    Employees
-                </NuxtLink>
-                <NuxtLink to="/teams" class="nav-link">
-                    <img src="/assets/svgs/ic-briefcase.svg" alt="">
-                    My Teams
-                </NuxtLink>
-                <NuxtLink to="/roles" class="nav-link">
-                    <img src="/assets/svgs/ic-flag.svg" alt="">
-                    Roles
-                </NuxtLink>
-            </div>
+                    <NuxtLink :to="{ name: 'companies-id' }" class="nav-link">
+                        <img src="/assets/svgs/ic-grid.svg" alt="" />
+                            Overview
+                    </NuxtLink>
+                    <NuxtLink :to="{ name: 'companies-id-employees' }" class="nav-link">
+                        <img src="/assets/svgs/ic-users.svg" alt="" />
+                            Employees
+                    </NuxtLink>
+                    <NuxtLink :to="{ name: 'companies-id-teams' }" class="nav-link">
+                        <img src="/assets/svgs/ic-briefcase.svg" alt="" />
+                            My Teams
+                    </NuxtLink>
+                    <NuxtLink :to="{ name: 'companies-id-roles' }" class="nav-link">
+                        <img src="/assets/svgs/ic-flag.svg" alt="" />
+                            Roles
+                    </NuxtLink>
+                </div>
             <div class="flex flex-col gap-4">
                 <div class="text-sm text-grey">Others</div>
                 <a href="#" class="nav-link">

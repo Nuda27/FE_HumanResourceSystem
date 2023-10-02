@@ -4,18 +4,20 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _720cd112 = () => interopDefault(import('..\\pages\\employees\\index.vue' /* webpackChunkName: "pages/employees/index" */))
-const _0f2e5658 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
-const _6da82388 = () => interopDefault(import('..\\pages\\register.vue' /* webpackChunkName: "pages/register" */))
-const _388f254c = () => interopDefault(import('..\\pages\\roles\\index.vue' /* webpackChunkName: "pages/roles/index" */))
-const _384ae67e = () => interopDefault(import('..\\pages\\teams\\index.vue' /* webpackChunkName: "pages/teams/index" */))
-const _88b7a93e = () => interopDefault(import('..\\pages\\employees\\add.vue' /* webpackChunkName: "pages/employees/add" */))
-const _2b7037fa = () => interopDefault(import('..\\pages\\employees\\finish.vue' /* webpackChunkName: "pages/employees/finish" */))
-const _15723734 = () => interopDefault(import('..\\pages\\employees\\role.vue' /* webpackChunkName: "pages/employees/role" */))
-const _bc934a66 = () => interopDefault(import('..\\pages\\employees\\team.vue' /* webpackChunkName: "pages/employees/team" */))
-const _129a39a9 = () => interopDefault(import('..\\pages\\roles\\add.vue' /* webpackChunkName: "pages/roles/add" */))
-const _5089f260 = () => interopDefault(import('..\\pages\\teams\\add.vue' /* webpackChunkName: "pages/teams/add" */))
-const _2ec131bd = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _16c2bb4a = () => interopDefault(import('..\\pages\\companies\\index.vue' /* webpackChunkName: "pages/companies/index" */))
+const _3caf2b46 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
+const _ba244054 = () => interopDefault(import('..\\pages\\register.vue' /* webpackChunkName: "pages/register" */))
+const _7307882f = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _6bd91010 = () => interopDefault(import('..\\pages\\companies\\_id\\index.vue' /* webpackChunkName: "pages/companies/_id/index" */))
+const _7c96d0df = () => interopDefault(import('..\\pages\\companies\\_id\\employees\\index.vue' /* webpackChunkName: "pages/companies/_id/employees/index" */))
+const _01ac5ba7 = () => interopDefault(import('..\\pages\\companies\\_id\\roles\\index.vue' /* webpackChunkName: "pages/companies/_id/roles/index" */))
+const _01ce7b0e = () => interopDefault(import('..\\pages\\companies\\_id\\teams\\index.vue' /* webpackChunkName: "pages/companies/_id/teams/index" */))
+const _2c55ba6e = () => interopDefault(import('..\\pages\\companies\\_id\\employees\\add.vue' /* webpackChunkName: "pages/companies/_id/employees/add" */))
+const _30fdddd6 = () => interopDefault(import('..\\pages\\companies\\_id\\employees\\finish.vue' /* webpackChunkName: "pages/companies/_id/employees/finish" */))
+const _ca71920e = () => interopDefault(import('..\\pages\\companies\\_id\\employees\\role.vue' /* webpackChunkName: "pages/companies/_id/employees/role" */))
+const _4736ad60 = () => interopDefault(import('..\\pages\\companies\\_id\\employees\\team.vue' /* webpackChunkName: "pages/companies/_id/employees/team" */))
+const _65415194 = () => interopDefault(import('..\\pages\\companies\\_id\\roles\\add.vue' /* webpackChunkName: "pages/companies/_id/roles/add" */))
+const _daffb746 = () => interopDefault(import('..\\pages\\companies\\_id\\teams\\add.vue' /* webpackChunkName: "pages/companies/_id/teams/add" */))
 
 const emptyFn = () => {}
 
@@ -29,53 +31,61 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/employees",
-    component: _720cd112,
-    name: "employees"
+    path: "/companies",
+    component: _16c2bb4a,
+    name: "companies"
   }, {
     path: "/login",
-    component: _0f2e5658,
+    component: _3caf2b46,
     name: "login"
   }, {
     path: "/register",
-    component: _6da82388,
+    component: _ba244054,
     name: "register"
   }, {
-    path: "/roles",
-    component: _388f254c,
-    name: "roles"
-  }, {
-    path: "/teams",
-    component: _384ae67e,
-    name: "teams"
-  }, {
-    path: "/employees/add",
-    component: _88b7a93e,
-    name: "employees-add"
-  }, {
-    path: "/employees/finish",
-    component: _2b7037fa,
-    name: "employees-finish"
-  }, {
-    path: "/employees/role",
-    component: _15723734,
-    name: "employees-role"
-  }, {
-    path: "/employees/team",
-    component: _bc934a66,
-    name: "employees-team"
-  }, {
-    path: "/roles/add",
-    component: _129a39a9,
-    name: "roles-add"
-  }, {
-    path: "/teams/add",
-    component: _5089f260,
-    name: "teams-add"
-  }, {
     path: "/",
-    component: _2ec131bd,
+    component: _7307882f,
     name: "index"
+  }, {
+    path: "/companies/:id",
+    component: _6bd91010,
+    name: "companies-id"
+  }, {
+    path: "/companies/:id/employees",
+    component: _7c96d0df,
+    name: "companies-id-employees"
+  }, {
+    path: "/companies/:id/roles",
+    component: _01ac5ba7,
+    name: "companies-id-roles"
+  }, {
+    path: "/companies/:id/teams",
+    component: _01ce7b0e,
+    name: "companies-id-teams"
+  }, {
+    path: "/companies/:id/employees/add",
+    component: _2c55ba6e,
+    name: "companies-id-employees-add"
+  }, {
+    path: "/companies/:id/employees/finish",
+    component: _30fdddd6,
+    name: "companies-id-employees-finish"
+  }, {
+    path: "/companies/:id/employees/role",
+    component: _ca71920e,
+    name: "companies-id-employees-role"
+  }, {
+    path: "/companies/:id/employees/team",
+    component: _4736ad60,
+    name: "companies-id-employees-team"
+  }, {
+    path: "/companies/:id/roles/add",
+    component: _65415194,
+    name: "companies-id-roles-add"
+  }, {
+    path: "/companies/:id/teams/add",
+    component: _daffb746,
+    name: "companies-id-teams-add"
   }],
 
   fallback: false

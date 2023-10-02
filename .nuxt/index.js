@@ -12,7 +12,9 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_1e096ca8 from 'nuxt_plugin_plugin_1e096ca8' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_plugin_39e13ca0 from 'nuxt_plugin_plugin_39e13ca0' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_axios_74d2be7a from 'nuxt_plugin_axios_74d2be7a' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_auth_3364640d from 'nuxt_plugin_auth_3364640d' // Source: .\\auth.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -178,8 +180,16 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_1e096ca8 === 'function') {
-    await nuxt_plugin_plugin_1e096ca8(app.context, inject)
+  if (typeof nuxt_plugin_plugin_39e13ca0 === 'function') {
+    await nuxt_plugin_plugin_39e13ca0(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_axios_74d2be7a === 'function') {
+    await nuxt_plugin_axios_74d2be7a(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_auth_3364640d === 'function') {
+    await nuxt_plugin_auth_3364640d(app.context, inject)
   }
 
   // Lock enablePreview in context
